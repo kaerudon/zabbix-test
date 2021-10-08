@@ -1,5 +1,5 @@
 ---
-- name :zabbix add host
+- name: zabbix add host
   hosts: all
   become: yes
   tasks:
