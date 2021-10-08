@@ -1,7 +1,6 @@
 ---
-- name: zabbix add host
-  hosts: all
-  become: yes
+- hosts: localhost
+  connection: local
   tasks:
     - name: Create a new host or update an existing host's info
       local_action:
