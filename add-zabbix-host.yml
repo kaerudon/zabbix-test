@@ -1,6 +1,8 @@
 ---
   - hosts: localhost
     connection: local
+    gather_facts: no
+    become: yes
     tasks:
     - name: Create a new host or update an existing host's info
       local_action:
