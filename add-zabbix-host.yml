@@ -5,14 +5,14 @@
     - name: Create a new host or update an existing host's info
       local_action:
         module: zabbix_host
-        server_url: http://localhost/zabbix
+        server_url: http://100.102.145.71/zabbix
         login_user: Admin
         login_password: zabbix
-        host_name: ExampleHost
+        host_name: sdn001
         host_groups:
-          - Linux servers
+          - sdn
         link_templates:
-          - Template OS Linux
+          - VMware Hypervisor
         status: enabled
         state: present
         interfaces:
