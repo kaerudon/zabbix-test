@@ -5,8 +5,6 @@
       local_action:
         module: zabbix_host
         server_url: http://100.102.145.71/zabbix
-        login_user: Admin
-        login_password: zabbix
         host_name: sdn001
         host_groups:
           - sdn
