@@ -1,1 +1,15 @@
+zabbix_url: http://<zabbix url>/zabbix
+zabbix_user: <zabbix user acount>
+zabbix_user_password: <zabbix acount password>
 
+zxabbix_hostname: <add host name>
+zabbix_host_group: <add host group>
+
+zabbix_asaign_template1: <asaign zabbix_template name>
+zabbix_asaign_template2: <asaign zabbix_template name>
+zabbix_asaign_template3: <asaign zabbix_template name>
+.
+.
+.
+
+zabbix_host_ip: <add host IP address>
