@@ -1,2 +1,2 @@
-# zabbixホスト登録用のansible playbookと変数用のファイルになります。
+# zabbixホスト登録用のansible playbookと変数用のファイルサンプルになります。
 
